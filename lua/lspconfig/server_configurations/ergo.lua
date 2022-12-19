@@ -2,7 +2,7 @@ local util = require 'lspconfig.util'
 
 return {
     default_config = {
-        cmd = {'ergolang lsp'},
+        cmd = {'ergolang', 'lsp'},
         filetypes = {'ergo'},
         root_dir = util.root_pattern 'workspace.ergo'
     },
