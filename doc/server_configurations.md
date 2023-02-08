@@ -2212,7 +2212,7 @@ https://github.com/CACI-International/ergo
 Ergo langauge server
 
 To use with nvim, install ergolang and add it to you path.
-
+    
 
 
 **Snippet to enable the language server:**
