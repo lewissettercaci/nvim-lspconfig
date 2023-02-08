@@ -1,7 +1,7 @@
 local _MODREV, _SPECREV = 'scm', '-1'
 
 rockspec_format = "3.0"
-package = 'nvim_lspconfig'
+package = 'nvim-lspconfig'
 version = _MODREV .. _SPECREV
 
 description = {
@@ -20,15 +20,8 @@ dependencies = {
 }
 
 source = {
-  url = 'https://github.com/neovim/nvim-lspconfig/archive/v' .. _MODREV .. '.zip',
-  dir = 'nvim-lspconfig-' .. _MODREV,
+  url = 'git://github.com/neovim/nvim-lspconfig',
 }
-
-if _MODREV == 'scm' then
-  source = {
-    url = 'git://github.com/neovim/nvim-lspconfig',
-  }
-end
 
 build = {
   type = 'builtin',
